@@ -12,7 +12,6 @@
 // Execute the command `rustlings hint hashmap2` if you need
 // hints.
 
-// I AM NOT DONE
 
 use std::collections::HashMap;
 
@@ -38,6 +37,11 @@ fn fruit_basket(basket: &mut HashMap<Fruit, u32>) {
         // TODO: Put new fruits if not already present. Note that you
         // are not allowed to put any type of fruit that's already
         // present!
+        let r = basket.get(&fruit);
+        match r {
+            None => {basket.insert(fruit, 5);}
+            _ => ()
+        }
     }
 }
 
@@ -46,7 +50,7 @@ mod tests {
     use super::*;
 
     fn get_fruit_basket() -> HashMap<Fruit, u32> {
-        let mut basket = HashMap::<Fruit, u32>::new();
+        let mut basket = HashMap::<Fruit, u32>::new();  //指明泛型参数
         basket.insert(Fruit::Apple, 4);
         basket.insert(Fruit::Mango, 2);
         basket.insert(Fruit::Lychee, 5);
@@ -75,7 +79,7 @@ mod tests {
     fn greater_than_eleven_fruits() {
         let mut basket = get_fruit_basket();
         fruit_basket(&mut basket);
-        let count = basket.values().sum::<u32>();
+        let count = basket.values().sum::<u32>();   // 指定泛型参数u32
         assert!(count > 11);
     }
 }
