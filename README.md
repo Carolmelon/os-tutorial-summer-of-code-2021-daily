@@ -19,3 +19,9 @@
 ## day3(2021-7-3)
 
 今天做rustlings到errorsn.rs，同时结合之前看完的rust book和文档复习了一下有疑惑的部分，预计明天结束rustlings
+
+## day4(2021-7-8)
+
+rustlings完结撒花，接下来继续开始学习risc-v，同时复习rust的其他练习
+
+![](C:\Users\lrs\Desktop\夏令营\os-tutorial-summer-of-code-2021-daily\rustlings完结撒花.png)
