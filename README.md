@@ -8,6 +8,7 @@
 |7-1|做rustlings到quiz1.rs|目前的内容还比较友好|
 |7-3|做rustlings到errorsn.rs|预计明天结束rustlings|
 |7-8|rustlings完结|开始学risc-v，同时做rust其他练习|
+|7-17|rust-quiz完结|开始rcore tutorial|
 
 ## day1(2021-6-29)
 
@@ -25,4 +26,10 @@
 
 rustlings完结撒花，接下来继续开始学习risc-v，同时复习rust的其他练习
 
-![](rustlings完结撒花.png)
+<img src="rustlings完结撒花.png" style="zoom:50%;" />
+
+## day5(2021-7-17)
+
+rust-quiz完结，开始risc-v和rcore tutorial
+
+![](rust-quiz完结.png)

@@ -1,0 +1,1 @@
+C:\Users\lrs\Desktop\夏令营\os-tutorial-summer-of-code-2021-daily\rust-exercise(week\ 1)\rust-quiz\quiz6\target\debug\quiz6.exe: C:\Users\lrs\Desktop\夏令营\os-tutorial-summer-of-code-2021-daily\rust-exercise(week\ 1)\rust-quiz\quiz6\src\main.rs
