@@ -18,7 +18,13 @@ fn main() {
 
     // TODO: make this a while let statement - remember that vector.pop also adds another layer of Option<T>
     // You can stack `Option<T>`'s into while let and if let
-    while let Some(Some(integer)) = optional_integers_vec.pop() {
-        println!("current value: {}", integer);
+
+    // while let Some(Some(integer)) = optional_integers_vec.pop() {
+    //     println!("current value: {}", integer);
+    // }
+    match optional_integers_vec.pop() {
+        Some(Some(integer)) => println!("current value: {}", integer),
+        Some(None) => (),
+        None => (),
     }
 }
