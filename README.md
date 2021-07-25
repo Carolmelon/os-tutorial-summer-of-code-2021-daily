@@ -1,5 +1,8 @@
 # OS夏令营2021记录
 
+>  注：本仓库的子仓库os的地址为https://codechina.csdn.net/A916583011/rcore-tutorial-v3/
+>
+> 该子仓库存放的是rcore的代码和实验报告
 
 
 |时间| 学习内容                   | 一点点感悟                     |
@@ -60,3 +63,5 @@ rust-quiz完结，开始risc-v和rcore tutorial
 做完实验二练习，发现实验二的测例存在一个错误，给实验二的测例仓库rCore_tutorial_tests提了一个PR。代码仓库地址在https://codechina.csdn.net/A916583011/rcore-tutorial-v3/-/tree/ch2
 
 ![](实验二编程练习截图.png)
+
+补上了实验二的实验报告，在子仓库os中。
