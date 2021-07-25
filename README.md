@@ -11,6 +11,7 @@
 |7-17|rust-quiz完结|开始rcore tutorial|
 |7-23|读了riscv手册，给rcore实验一提了一个issue|进度要加快了，之前没注意到第一阶段7月25日结束|
 |7-24|做完实验一练习，实验报告在另一个repository中，链接见后文|时间来不及了o(╥﹏╥)o|
+|7-25|完成rcore实验二编程练习|争取每天一章rcore，月底之前完成rcore|
 
 ## day1(2021-6-29)
 
@@ -53,3 +54,9 @@ rust-quiz完结，开始risc-v和rcore tutorial
 结果截图如下：
 
 ![](实验一练习截图.png)
+
+## day8(2021-7-25)
+
+做完实验二练习，发现实验二的测例存在一个错误，给实验二的测例仓库rCore_tutorial_tests提了一个PR。代码仓库地址在https://codechina.csdn.net/A916583011/rcore-tutorial-v3/-/tree/ch2
+
+![](实验二编程练习截图.png)
